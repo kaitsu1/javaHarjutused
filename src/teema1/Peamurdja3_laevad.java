@@ -35,8 +35,8 @@ public class Peamurdja3_laevad {
 
 
 
-        int[][] laud = new int[5][5];
-        Scanner kasutaja= new Scanner ((System.in);
+        int[]laud = new int[5];
+        Scanner kasutaja= new Scanner(System.in);
         System.out.println("Sisesta number");
         int sisestus = kasutaja.nextInt();
 
@@ -50,6 +50,4 @@ public class Peamurdja3_laevad {
             laud [sisestus] = 2;
         }
     }
-
 }
-sout
